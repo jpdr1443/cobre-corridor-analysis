@@ -1,0 +1,22 @@
+# Assessment materials (not ours to publish)
+/transactions.csv
+/users.csv
+*.docx
+!outputs/Cobre_Assessment_Deliverable.docx
+
+# Row-level generated data
+outputs/fact_transactions.csv
+outputs/dim_users.csv
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Office lock files and OS noise
+~$*
+.DS_Store
+Thumbs.db
+desktop.ini
